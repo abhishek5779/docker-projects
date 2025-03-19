@@ -2,6 +2,8 @@
 
 Write a simple Dockerfile that runs a Python Flask app serving an HTML page using an official base image (`python:3.9`).
 
+Note: Same application can be created on (`python:3.9-slim`) image as well and it will drastically reduce the size.
+
 ## Build the Docker Image
 
 Build a Docker image from your Dockerfile and tag it with a version:
