@@ -4,7 +4,7 @@ WORKDIR /api
 
 COPY requirements.txt app.py /api/
 
-RUN pip install -r --no-cache-dir requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 5000
 ENTRYPOINT ["python3"]
